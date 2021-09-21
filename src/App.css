@@ -2,11 +2,10 @@
   background-color: white;
   display: flex;
   justify-content: space-evenly;
-  padding: 1rem;
   width: 100vw;
 }
 
-.navLinks {
+.headLinks {
   display: flex;
   list-style-type: none;
   gap: 1rem;
@@ -15,16 +14,44 @@
   color: black;
 }
 
-.navLink {
+.headLink {
   color: black;
   text-decoration: none;
   opacity: 0.7;
   font-size: 13px;
 }
 
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: black;
+  padding: 1rem;
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .navIcon {
   color: black;
   margin: 10px;
+}
+
+.headBg {
+  height: 32vw;
+}
+
+.headBg img {
+  height: 100%;
+  width: 100%;
 }
 
 .hLogo {
